@@ -3,7 +3,7 @@ module.exports = {
         titles : 'h4',
         inputField : 'input[name="evenOddInput"]',
         splitButton : 'button[class="confirmationButton"]',
-        evens : 'span[name="evenReulsts"]',
+        evens : 'span[name="evenResults"]',
         odd : 'span[name="oddResults"]',
 
         

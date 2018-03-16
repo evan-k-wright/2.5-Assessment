@@ -18,7 +18,8 @@ module.exports = {
     'Evens and Odds 1, 2, 3, 4, 5, 6': browser => {
         functions.evensOdd(browser, selectors.inputField, data.values)
         functions.splitButton(browser, selectors.splitButton)
-
+        browser.expect.element(selectors.evens).text.to.equal(data.resultsEven)
+        browser.expect.element(selectors.odd).text.to.equal(data.resultsOdd)
 
     }
 }
