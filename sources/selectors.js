@@ -1,6 +1,7 @@
 module.exports = {
     //Evens and Odds 
-        inputField : 'input[class="inputLine"]',
+        titles : 'h4',
+        inputField : 'input[name="evenOddInput"]',
         splitButton : 'button[class="confirmationButton"]',
         evens : 'span[name="evenReulsts"]',
         odd : 'span[name="oddResults"]',
