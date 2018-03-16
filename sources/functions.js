@@ -19,5 +19,13 @@ module.exports = {
         browser
             .expect.element(selector).text.to.contain('Evens and Odds')
 
-    }
+    },
+
+    //Filter Object
+    uiCHecker1: (browser, selector) => {
+        browser
+            .expect.element(selector).text.to.contian('Filter Objet')
+    },
+    
+
 }

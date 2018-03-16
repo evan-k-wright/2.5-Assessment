@@ -7,5 +7,5 @@ module.exports = {
     //Filer Object
         value: 'Name',
         results: 'Fildered: [{ "name": "Jimmy Joe", "title": "Hack0r", "age": 12 }, { "name": "Jeremy Schrader", "age": 24, "hairColor": "brown" }, { "name": "Carly Armstrong", "title": "CEO" }]',
-        
+
 }

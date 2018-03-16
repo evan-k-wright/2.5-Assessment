@@ -6,6 +6,9 @@ module.exports = {
         evens : 'span[name="evenResults"]',
         odd : 'span[name="oddResults"]',
 
+    //Filter Object
+        title1 : 'h4',
+        
         
 
 }
