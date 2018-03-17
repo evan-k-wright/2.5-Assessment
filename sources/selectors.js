@@ -8,7 +8,9 @@ module.exports = {
 
     //Filter Object
         title1 : 'h4',
-        
+        nameField : 'input[name="objectFilterInput"]',
+        filterButton : 'button[name="objectFilterButton"]',
+        filtered : 'span[name="objectFilterResults"]'
         
 
 }

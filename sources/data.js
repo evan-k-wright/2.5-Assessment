@@ -5,7 +5,7 @@ module.exports = {
         resultsOdd: 'Odds: [1,3,5]',
 
     //Filer Object
-        value: 'Name',
-        results: 'Fildered: [{ "name": "Jimmy Joe", "title": "Hack0r", "age": 12 }, { "name": "Jeremy Schrader", "age": 24, "hairColor": "brown" }, { "name": "Carly Armstrong", "title": "CEO" }]',
+        value1: 'name',
+        filterResults: '[ { "name": "Jimmy Joe", "title": "Hack0r", "age": 12 }, { "name": "Jeremy Schrader", "age": 24, "hairColor": "brown" }, { "name": "Carly Armstrong", "title": "CEO" } ]'
 
 }

@@ -21,5 +21,14 @@ module.exports = {
         browser.expect.element(selectors.evens).text.to.equal(data.resultsEven)
         browser.expect.element(selectors.odd).text.to.equal(data.resultsOdd)
 
-    }
+    },
+    /*'uiChecker1' : browser => {
+        functions.uiCHecker1(browser, selectors.title1)
+    }*/
+    'name' : browser => {
+        functions.name(browser, selectors.nameField, data.value1)
+        functions.filterButton(browser, selectors.filterButton)
+        browser.expect.element(selectors.filtered).text.to.contain(data.filterResults)
+    },
+
 }
