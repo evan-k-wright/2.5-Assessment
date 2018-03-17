@@ -31,6 +31,6 @@ module.exports = {
         functions.name(browser, selectors.nameField, data.value1)
         functions.filterButton(browser, selectors.filterButton)
         browser.expect.element(selectors.filtered).text.to.contain(data.filterResults)
-    },
+    }, 
 
 }
