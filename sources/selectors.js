@@ -7,7 +7,7 @@ module.exports = {
         odd : 'span[name="oddResults"]',
 
     //Filter Object
-        title1 : 'h4',
+        title1 : '//h4[2]',
         nameField : 'input[name="objectFilterInput"]',
         filterButton : 'button[name="objectFilterButton"]',
         filtered : 'span[name="objectFilterResults"]'

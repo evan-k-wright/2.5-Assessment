@@ -22,10 +22,10 @@ module.exports = {
     },
 
     //Filter Object
-        /*uiCHecker1: (browser, selector) => {
+        uiCHecker1: (browser, selector) => {
         browser
             .expect.element(selector).text.to.contain('Filter Objet')
-    },*/
+    },
     name: (browser, selector, value) => {
         browser
             .setValue(selector, value)

@@ -22,11 +22,12 @@ module.exports = {
         browser.expect.element(selectors.odd).text.to.equal(data.resultsOdd)
 
     },
-    /*'uiChecker1' : browser => {
+    'uiChecker1' : browser => {
         functions.uiCHecker1(browser, selectors.title1)
-        When you expect the app, there are 5 <h4> tags in it. But they don't have a class or name.
-        I didn't know how to specify which <h4> tag I wanted.
-    }*/
+       /* When you inspect the app, there are 5 <h4> tags in it. But they don't have a class or name.
+        I didn't know how to specify which <h4> tag I wanted.*/
+    },
+
     'name' : browser => {
         functions.name(browser, selectors.nameField, data.value1)
         functions.filterButton(browser, selectors.filterButton)
