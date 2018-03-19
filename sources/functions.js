@@ -17,14 +17,14 @@ module.exports = {
     uiChecker: (browser, selector) => {
         //checking box title
         browser
-            .expect.element(selector).text.to.contain('Evens and Odds')
+            .expect.element(selector).text.to.equal('Evens and Odds')
 
     },
 
     //Filter Object
         uiCHecker1: (browser, selector) => {
         browser
-            .expect.element(selector).text.to.contain('Filter Objet')
+            .expect.element(selector).text.to.equal('Filter Objet')
     },
     name: (browser, selector, value) => {
         browser
